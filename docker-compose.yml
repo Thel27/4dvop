@@ -1,11 +1,11 @@
 version: '3'
 services:
   nginx:
-    image: thel27/nginx-4dvop
+    image: nginx-4dvop
     ports:
       - "8080:8080"
   haproxy:
-    image: thel27/haproxy-4dvop
+    image: haproxy-4dvop
     ports:
       - "80:80"
     depends_on:
